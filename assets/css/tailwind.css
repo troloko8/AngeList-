@@ -1,0 +1,114 @@
+/* purgecss start ignore */
+@tailwind base;
+
+html {
+  scroll-behavior: smooth;
+}
+
+@tailwind components;
+
+.hero {
+  @apply p-2 text-center;
+}
+
+.divider {
+  display: table;
+  white-space: nowrap;
+  height: auto;
+  line-height: 1;
+  text-align: center;
+  margin: 1rem 0;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: rgba(0, 0, 0, 0.85);
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.divider:before {
+  background-position: right 1em top 50%;
+}
+
+.divider:after {
+  background-position: left 1em top 50%;
+}
+
+.divider:after,
+.divider:before {
+  background-image: url(/img/divider.png);
+  content: '';
+  display: table-cell;
+  position: relative;
+  top: 50%;
+  width: 50%;
+  background-repeat: no-repeat;
+}
+
+.square {
+  width: 100%;
+  padding-top: 100%;
+}
+
+.aspect-ratio {
+  overflow: hidden;
+  /* Calculated from the aspect ratio of the content (in case of 16:9 it is 9/16= 0.5625) */
+  padding-top: 56.25%;
+  position: relative;
+  /* z-index: -1; */
+  z-index: 1;
+}
+
+.aspect-ratio iframe {
+  border: 0;
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: -1;
+}
+
+.menu .nuxt-link-exact-active {
+  @apply font-bold;
+}
+
+@tailwind utilities;
+
+.bg-light-pattern {
+  background-color: #dfdbe5;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'%3E%3Cg fill='%239C92AC' fill-opacity='0.19'%3E%3Cpolygon fill-rule='evenodd' points='8 4 12 6 8 8 6 12 4 8 0 6 4 4 6 0 8 4'/%3E%3C/g%3E%3C/svg%3E");
+}
+
+.bg-pina {
+  background: url('/img/pina_2.jpg') no-repeat fixed center;
+}
+
+.bg-dark-gradient {
+  background: linear-gradient(-38deg, #301e4e, #67568c);
+}
+
+.text-shadow {
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.text-shadow-md {
+  text-shadow: 0 4px 8px rgba(0, 0, 0, 0.12), 0 2px 4px rgba(0, 0, 0, 0.08);
+}
+
+.text-shadow-lg {
+  text-shadow: 0 15px 30px rgba(0, 0, 0, 0.11), 0 5px 15px rgba(0, 0, 0, 0.08);
+}
+
+.text-shadow-none {
+  text-shadow: none;
+}
+
+.min-w-40 {
+  min-width: 10rem;
+}
+
+/* purgecss end ignore */

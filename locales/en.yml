@@ -1,0 +1,601 @@
+common:
+  yes: 'Yes'
+  no: 'No'
+  female: Female
+  male: Male
+  other: Other
+  Monday: Monday
+  Tuesday: Tuesday
+  Wednesday: Wednesday
+  Thursday: Thursday
+  Friday: Friday
+  Saturday: Saturday
+  Sunday: Sunday
+post:
+  report: Report
+  delete: Delete
+  edit: Edit
+  dashboard: Dashboard
+nav:
+  feed: Feed
+  calendar: Calendar
+  community: Community
+  chat: Chat
+  myProfile: My Profile
+  settings: Settings
+form:
+  clear: Clear
+  delete: Delete
+  cancel: Cancel
+  copy: Copy
+  save: Save
+photo:
+  placeholder: Change photo
+  selectLabel: Upload photo
+visibility:
+  label: Visibility
+  description: '- Public: searchable in Google and can be used in social media.
+
+    - Members: only visible for logged-in users.
+
+    - Unlisted: only possible to open with exact link, but not listed anywhere.'
+  public: Public
+  members: Members
+  unlisted: Unlisted
+hero:
+  title: Do you like dancing?
+  subtitle: We help each other find interesting dance events and dance partners.
+  motto: We help everyone to dance everywhere and all dancers to help each other
+  submotto: Salsa, Bachata, Kizomba, Urban Kiz, Raggaeton, Casino, Tango and 130 more dance styles
+  alt: People dancing bachata
+  action: Join the community
+  search: Search dancers
+icons:
+  dancers: dancers
+  cities: cities
+  events: events
+features:
+  calendar:
+    title: Event Calendar
+    description: Find dance workshops, courses, socials and parties. We fill event calendar all together as a community. Everyone can share.
+  dancePartners:
+    title: Dance partners
+    description: Find a dance partner for your dance style and let them find you.
+  cityChats:
+    title: City Chats
+    description: Find dance chat in any city. Join your city chat and invite your friends to help new dancers in the city. Think globally, act locally.
+  danceTravel:
+    title: Dance Travel
+    description: Find international dance festivals and congresses. Share a ride, an appartment and find a buddy to experience a new city together.
+  volunteer:
+    title: Volunteer
+    description: We build a community, where everyone enters with mindset “I can help”, so whenever you need help you can count on it. We are one big family worldwide. We help each other.
+    action: Get Involved
+  interviews:
+    title: Interviews
+    description: Explore more about you favorite dance artists and catch their tips & tricks.
+    action: Listen to Podcast
+international:
+  title: International Community
+  description: We regularly post interviews, event announcements and introduce new members on our social media.
+auth:
+  signin: Sign in
+  signup: Sign up
+  signout: Log out
+events:
+  typelist:
+    party: Party
+    workshop: Workshop
+    course: Course
+    festival: Festival
+    congress: Congress
+    concert: Concert
+    show: Show
+    other: Other
+  add: Add event
+  title: Dance Calendar
+  list:
+    empty: No events found. Would you like to add one?
+  view:
+    list: See Photos
+    covers: See list
+  filter:
+    type: Type
+    style: Any Dance
+    level: Any Level
+eventView:
+  announce: Announce
+  dropdown:
+    dashboard: Dashboard
+    edit: Edit
+    share: Share
+    copy: Copy
+  online: Online Event
+  reservation:
+    guest: Register for event
+    cancel: Cancel reservation
+  reservationPopup:
+    title: Register
+    reserve:
+      submitLabel: Register
+      label: Login
+    finish:
+      title: Almost there
+      btn: Complete registration
+      description:
+        See you soon! Don't forget to check-in by the organiser when you
+        come!
+      reminder: Check your email to finish creation of the WeDance profile.
+      calendar: Add to calendar
+  organiser: Organised by
+  venueMap: Venue Map
+  source: Event Source
+postFields:
+  username:
+    label: Username
+  type:
+    label: Type
+  title:
+    placeholder: Title
+  description:
+    placeholder: Text (markdown)
+    tips: 'Pitch yourself: Who are you? What do you offer? What do you want?\n\nTips for effective pitch:\n- Uncomplicated: It should be catchy and roll off the tongue\n- Concise: It shouldn’t take more than a minute to say or read\n- Unique: It reflects your skills, goals, and desires\n- Storyline: It covers who you are, what you offer, and where you want to be\n- Appealing: Your elevator pitch is essentially a persuasive sales pitch; the emphasis should be on what you offer'
+    description: Use [widgets](https://wedance.vip/markdown), including images and videos
+  url:
+    placeholder: Link
+  styles:
+    label: Dance Styles
+filter:
+  radius: Radius
+  reset: Reset filters
+community:
+  title: Community
+profile:
+  bookme: Book me
+  contactme: Contact me
+  username:
+    label: Username
+    before: Use only letters, numbers, underscores and periods.
+  community: I dance in
+  type: Type
+  name:
+    label: Name
+    before: If you want to remain anonym use your first name.
+    placeholder: (Required)
+  bio:
+    label: Teaser
+    before: Short introduction on top of your photo
+  birthday:
+    label: Birthday
+    description: We will show only your age
+  gender:
+    label: Gender
+    placeholder: Gender
+  style: Dance styles
+  joined: Joined
+  languages: Languages
+  story:
+    label: Description
+    before: Tell your dance story. You can also use [widgets](https://wedance.vip/markdown), including images and videos
+    tips: '
+      Pitch yourself: Who are you? What do you offer? What do you want?
+
+      Tips for effective pitch:
+
+      - Uncomplicated: It should be catchy and roll off the tongue
+
+      - Concise: It shouldn’t take more than a minute to say or read
+
+      - Unique: It reflects your skills, goals, and desires
+
+      - Storyline: It covers who you are, what you offer, and where you want to be
+
+      - Appealing: Your elevator pitch is essentially a persuasive sales pitch; the emphasis should be on what you offer'
+    placeholder: Text (markdown)
+  locales: Your languages
+  skills: Non-dancing skills
+  days: Days
+  learning:
+    label: Which dance topics you are interested in?
+    description: 'For example: Musicality in Salsa, Men Styling, etc.'
+  teacher: Are you teaching?
+  partner: Are you looking for a dance partner?
+  height: Your height (cm)
+  weight:
+    label: Your weight (kg)
+    description: Leave this field blank if you think it's irrelevant.
+  partnerBio:
+    label: Question
+    description: 'What is important in your partner? Put it as a question, for example: Do you love dogs?'
+  objectives: Objectives
+  objective:
+    placeholder: Objective
+  meetingPlace: Where to meet?
+  photo: Photo
+  add: Add profile
+  title: Community
+  styles:
+    label: Dance
+    tips: Mark up to 4 favorite dances that will be highlighted in your poster
+  place:
+    label: Living in
+    before: What's your permanent residence?
+    placeholder: City
+  hometown:
+    label: Made in
+    before: Where were you born and raised?
+  current:
+    label: Dancing in
+    before: In which city are you currently dancing?
+  dance:
+    placeholder: Style
+  permission:
+    label: Do you want free promo?
+    description: 'Send us link to your event on [Telegram](https://t.me/+aRIIZcXpBhJkYmUy) and we will announce it on our Telegram, Instagram and Facebook.'
+  jobs:
+    label: I can help with
+    description: 'How can you help our community? What are you good at? For example: design, programming, marketing, social media, etc.'
+  contacts: Do you use social media?
+  instagram:
+    label: instagram.com/
+    placeholder: username
+  facebook:
+    label: fb.com/
+    placeholder: username
+  whatsapp:
+    label: whatsapp.com/
+    placeholder: whatsapp chat
+  telegram:
+    label: t.me/
+    placeholder: username
+  twitter:
+    label: twitter.com/
+    placeholder: username
+  tiktok:
+    label: tiktok.com/
+    placeholder: username
+  youtube:
+    label: youtube.com/
+    placeholder: username
+  email:
+    label: Email
+    placeholder: for business requests
+  website:
+    label: Website
+    placeholder: for business requests
+  meetingPlaces:
+    myPlace: My place
+    yourPlace: Your place
+    private: Somewhere private
+    public: Somewhere public
+  typeList:
+    dancer: Dancer
+    artist: Artist
+    organiser: Organiser
+    venue: Venue
+    city: City
+  objectivesList:
+    talk: Talk about dance
+    home: Share home
+    auto: Share auto
+    learn: Learn together
+    outdoors: Dance outdoors
+    indoors: Dance indoors
+    teach: Teach together
+    project: Dance project
+  profileSorts:
+    username: Username
+    registered: Registered
+    lastSeen: Last seen
+  chat:
+    label: Chat
+  partnerSearch:
+    title: I am looking for a dance partner
+radiusOptions:
+  ten: around 10km
+  twenty: around 20km
+  fifty: around 50km
+  hundred: around 100km
+  fiveHundred: around 500km
+  thousand: around 1000km
+  anywhere: Anywhere
+myprofile:
+  addEvent: Add event
+  addPost: Write a post
+  edit: Edit Profile
+  share: Share
+  intro:
+    photo: your photo
+    gender: your gender
+    styles: what do you dance
+    bio: teaser (short introduction)
+    place: your city
+    objectives: your objectives
+    title: Welcome to WeDance!
+    description1: This is your profile. A square below is a poster – your visual
+      introduction.
+    description2: Your poster is also shown in {0} among other dancers.
+    community: Community
+    description3: 'Click {0} and add:'
+  ambassador:
+    description1:
+      WeDance is represented by Ambassador in local dance communities.
+      Volunteers help Ambassador with different initiatives to unite local
+      dancers. WeDance is created and supported by volunteers. Get
+      Involved, become volunteer!
+    description2: Ambassador in {community} is
+    description3:
+      'Help us build a dance network in your city, follow and interact with
+      our local social media accounts:'
+  profile:
+    height: '{height}cm'
+    weight: '{weight}kg'
+TPostList:
+  loadMore: Load more
+TPost:
+  dropdown: report or share
+  showLess: Show less
+  showMore: Show more
+TCardActions:
+  Reason: Reason
+  options:
+    spam: spam
+    other: other
+chat:
+  title: Chat
+  empty: Start conversations and they will appear here.
+  lastMessage:
+    byYou: by you
+  receiver:
+    deleted: DELETED
+conversation:
+  userName: Chat with {username}
+  empty: Start conversation with something nice.
+  lastSeen: opened chat last time
+  unread: haven't opened this chat yet
+  newMessage:
+    placeholder: Write a message
+    submit: Send
+  welcome: Start conversation with something nice.
+  with: Chat with {username}
+  dateDiff: '{diff} ago'
+cities:
+  choose: Choose city
+settings:
+  title: Settings
+  account:
+    title: Account
+    description:
+      This information will be used for notifications and purchases. It
+      will be shared with service providers or sellers only with your agreement.
+    changepassword: Change Password
+    delete: Delete Account
+    popup:
+      delete:
+        title: Confirm account deletion
+        deleteReason: Why are you leaving?
+        usernameConfirmation: Enter username
+  passwordError: Error
+  profile:
+    title: Profile
+    description:
+      What do you want other dancers to know about you? That's a place to
+      share your passion to dance. Present yourself, don't be shy!
+  contacts:
+    title: Contacts
+    description:
+      This information will be publicly available. Share your contacts
+      only if you want to be contacted by members. It's also nice place to share
+      your social media to get some attention.
+city:
+  anywhere: Anywhere
+  change: Change city
+role:
+  label: Role
+account:
+  email: Email
+  password: Password
+  name: Full Name
+  phone: Phone
+  zone: Timezone
+  newsletter:
+    label: What kind of updated would you like to receive weekly?
+    options:
+      party: 'Social/party events'
+      class: Dance classes
+      workshop: Workshops and bootcamps
+      online: Online dance classes
+      festival: International festivals
+  comment: Comment
+  withPartner:
+    label: Do you have a partner?
+  partnerName: Partner's name
+  partnerEmail: Partner's email
+agreement: By signing in, you agree to {terms} and {privacy}.
+terms: Terms of service
+privacy: Privacy policy
+register:
+  login: Login
+  submit: Register
+signin:
+  register: Create Account
+  nopassword: Forgot password
+  submit: Login
+nopassword:
+  signin: I have a password
+  google: Sign in with Google
+  facebook: Sign in with Facebook
+  email: Sign in with Email
+  submit: Send a magic link
+contacts:
+  email: Email
+  website: Website
+teaser:
+  partner:
+    title: Need a partner?
+    description: Dancers worldwide create their profiles to find dance partners
+    btn: See Community
+  events:
+    title: Where to dance?
+    description: All dance courses, parties and festivals in one place
+    btn: See Events
+  profile:
+    title: Publish your profile
+    description: so that others can contact you
+    btn: Join for free
+  allevents:
+    title: Private events
+    description: Become a member of WeDance Community to see more
+    btn: Join Now
+  chat:
+    title: Ask Locals
+    description:
+      "We have a Telegram dance chat in every city. Join your city chat
+      to help traveling dancers, invite your dance friends. Let's build WeDance
+      together! "
+    btn: Join Chat
+  involve:
+    title: We need your help
+    description:
+      We are non-profit international dance community. We want you go to
+      any city in any country and find dance events and dancers. It all starts
+      with the local community.
+    btn: Get Involved
+share:
+  title: Share
+  copy: Copy Link
+footer:
+  about: About us
+  support: Support
+  privacy: Privacy
+  terms: Terms
+  coc: Code of Conduct
+  faq: FAQ
+feed:
+  add: Add post
+  title: Feed
+  newMessage:
+    input: Ask or share something about dance...
+    intent: post a message
+    submit: Send
+  category: Choose category
+  post: Post
+  event: Event
+  needPartner: Looking for partner
+  needEvents: Looking for events
+  needInstructor: Looking for instructor
+  trip: Offering trip
+  artist: Artist
+  venue: Venue
+  app: App
+  guide: Guide / How To
+  inspiration: Inspiration
+  question: Question
+  poll: Poll
+comments:
+  empty: There are no comments yet.
+  label: Comments
+sort:
+  popular: Popular
+  newest: Newest
+  hot: Hot
+  watching: Watching
+  starred: Starred
+  archived: Archived
+  yours: Yours
+event:
+  artists: Artists
+  organiser: Organiser
+  category:
+    meetup: Dance
+    lesson: Learn
+    online: Online
+    travel: Travel
+  role:
+    dj: DJ
+    instructor: Instructor
+    taxi: Taxi Dancer
+    photographer: Photographer
+    musician: Musician
+    organiser: Organiser
+  name:
+    placeholder: Event Name
+    label: Name
+  description:
+    label: Announcement
+    placeholder: Unique Value Proposition
+    description: 'Use [widgets](https://wedance.vip/markdown), including images and videos'
+    tips: 'Pitch yourself: Who are you? What do you offer? What do you want?\n\nTips for effective pitch:\n- Uncomplicated: It should be catchy and roll off the tongue\n- Concise: It shouldn’t take more than a minute to say or read\n- Unique: It reflects your skills, goals, and desires\n- Storyline: It covers who you are, what you offer, and where you want to be\n- Appealing: Your elevator pitch is essentially a persuasive sales pitch; the emphasis should be on what you offer'
+  startDate: When?
+  endDate: End Date
+  venue: Where?
+  cover: Cover
+  type: Event Type
+  duration:
+    label: How long?
+    thirtyMinutes: 30 minutes
+    oneHour: 60 minutes
+    ninetyMinutes: 1.5 hour
+    twoHours: 2 hours
+    threeHours: 3 hours
+    fourHours: 4 hours
+    fiveHours: 5 hours
+    custom: Custom
+  price:
+    label: Price
+    description: Please include currency, i.e. EUR, USD
+  styles: Dance styles
+  org:
+    label: Organiser
+  online:
+    label: Online?
+    description: Streaming via Zoom, Google Meet, Instagram Live, etc.?
+  international:
+    label: International
+    description: Is it a big event with >500 guests, like festival or congress?
+  place:
+    label: Community
+    description: Leave empty if you want your event to be shown in all cities
+  form:
+    label: External registration?
+    before: Do you use external platform to register for your event?
+  link:
+    label: Link
+    description: Direct booking link on ticket platform [ti.to](https://ti.to/home), Eventbrite, Google Form, etc.
+  facebook:
+    label: Facebook
+    description: Facebook event
+  promo:
+    label: Announce on social media?
+    description: 'Send us link to your event on [Telegram](https://t.me/+aRIIZcXpBhJkYmUy) and we will announce it on our Telegram, Instagram and Facebook.'
+  confirmation:
+    label: Confirmation email for guests
+    placeholder: 'Example: Dear guest, you are confirmed to our event.'
+TInputProfile:
+  changeRole: Change Role
+  actions: Actions
+  remove: Remove
+  import: Import
+  placeholder: Search on WeDance, Instagram or Facebook
+popup:
+  auth:
+    title: Members only
+    body: Sign in to {action}
+    signin: Sign in
+TButton:
+  title: Login to {action}
+TDropdown:
+  title: report or share
+TReaction:
+  watch: Watch
+  star: Star
+EventDashboard:
+  noAccess: Only event owner can access this area.
+  unlink: Unlink
+  couple: Couple
+  cancel: Cancel
+  checkIn: CheckIn
+  rsvp: RSVP
+  subscribed: Subscribed
+  paid: Paid
+  notPaid: Didn't Pay
